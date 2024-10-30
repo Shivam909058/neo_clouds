@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Solutions from './pages/Solutions';
 import Resources from './pages/Resources';
 import Dashboard from './pages/Dashboard';
+import Apps from './pages/Apps'; // Add this import
 import Footer from './components/layout/Footer';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/apps" element={<Apps />} /> {/* Add this route */}
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
         
