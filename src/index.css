@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-glow {
+    background: radial-gradient(circle at center, rgba(139, 92, 246, 0.15), transparent 60%);
+  }
+}
